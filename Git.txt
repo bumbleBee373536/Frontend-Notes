@@ -1,0 +1,31 @@
+Git commands
+
+Getting and Creating Projects:
+
+git init: Initialize a new Git repository in the current directory.
+git clone <URL>: Create a local copy of a remote repository. 
+
+Basic Snapshotting:
+
+git add <file>: Stage changes in a specific file for the next commit.
+git add .: Stage all changes in the current directory.
+git status: Display the status of the working directory and staging area
+git commit -m "Commit message": Record staged changes permanently in the version history with a message.
+git reset --hard <commit-id>: Discard all changes and revert to a specific commit.
+
+Branching and Merging:
+
+git branch: List all local branches.
+git branch <new-branch-name>: Create a new branch.
+git checkout <branch-name>: Switch to a different branch.
+git merge <branch-name>: Merge changes from one branch into the current branch.
+
+
+Sharing and Updating Projects:
+
+git fetch: Download objects and refs from another repository.
+git pull: Fetch from and integrate with another repository or a local branch.
+git push <remote-name> <branch-name>: Upload local branch commits to a remote repository.
+
+Inspecting History:
+git log: Show commit history.
